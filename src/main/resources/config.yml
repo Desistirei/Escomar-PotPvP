@@ -1,0 +1,30 @@
+LICENSE: ''
+
+Mongo:
+  Host: localhost
+  Port: 27017
+  Database: Practice
+  Auth:
+    Enabled: false
+    Username: admin
+    Database: admin
+    Password: pass
+
+COLOR:
+  MAIN: '&b'
+  SECONDARY: '&f'
+
+Tablist:
+  Title: '&b&lShadow &7┃ &fPractice'
+
+Scoreboard:
+  Title: '&b&lShadow &7┃ &fPractice'
+  Footer: '&7changethis.gg'
+  Party: '&7┃ &fYour Team: &b%party_members_count%'
+  Lobby:
+    - '&7┃ &fOnline: &b%player_count%'
+    - '&7┃ &fIn Fights: &b%fights_count%'
+    - '&7┃ &fQueued: &b%queues_count%'
+    - '&b'
+    - '&7┃ &fStars: &b%stars_count%'
+  Match:
